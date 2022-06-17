@@ -11,7 +11,7 @@ html{
 
 body{
     font-size: 15px;
-    background-color: var(--very-light-gray);
+    background-color: hsl(0, 0%, 95%);
 }
 
 main .cardgroup{
@@ -27,7 +27,7 @@ main .cardgroup{
 
 /* ================SEDANS=============== */
 .cardgroup .sedans{
-    background-color: var(--bright-orange);
+    background-color: hsl(31, 77%, 52%);
     padding: 2.2rem;
     border-radius: 6px 0 0 6px;
 }
@@ -41,7 +41,7 @@ main .cardgroup{
     font-family: "big shoulders display", cursive;
     font-weight: 700;
     font-size: 2rem;
-    color: var(--very-light-gray);
+    color: hsl(0, 0%, 95%);
     padding-bottom: 1.5rem;
 }
 
@@ -49,7 +49,7 @@ main .cardgroup{
     font-family: "lexend deca", sans-serif;
     font-weight: 400;
     font-size: 12px;
-    color: var(--transparent-white);
+    color: hsla(0, 0%, 100%, 0.75);
     line-height: 1.2rem;
     padding-bottom: 4rem;
 }
@@ -57,9 +57,9 @@ main .cardgroup{
 .cardgroup .sedans button{
     font-family:"lexend deca", sans-serif;
     font-family: 400;
-    color: var(--very-light-gray);
-    background-color: var(--bright-orange);
-    border: 2px solid var(--very-light-gray);
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid hsl(0, 0%, 95%);
     padding: 10px 20px;
     border-radius: 20px;
     letter-spacing: 2;
@@ -69,12 +69,12 @@ main .cardgroup{
 .cardgroup .sedans button:hover{
     cursor: pointer;
     transform: scale(1.05);
-    background-color: var(--dark-orange);
+    background-color: hsl(31, 91%, 35%);
 }
 
 /* ===============SUVS============ */
 .cardgroup .suvs{
-    background-color: var(--dark-cyan);
+    background-color: hsl(184, 100%, 22%);
     padding: 2.2rem;
 }
 
@@ -87,7 +87,7 @@ main .cardgroup{
     font-family: "big shoulders display", cursive;
     font-weight: 700;
     font-size: 2rem;
-    color: var(--very-light-gray);
+    color: hsl(0, 0%, 95%);
     padding-bottom: 1.5rem;
 
 }
@@ -96,7 +96,7 @@ main .cardgroup{
     font-family: "lexend deca", sans-serif;
     font-weight: 400;
     font-size: 12px;
-    color: var(--transparent-white);
+    color: hsla(0, 0%, 100%, 0.75);
     line-height: 1.2rem;
     padding-bottom: 4rem;
 }
@@ -104,9 +104,9 @@ main .cardgroup{
 .cardgroup .suvs button{
     font-family: "lexend deca", sans-serif;
     font-weight: 400;
-    color: var(--very-light-gray);
-    background-color: var(--dark-cyan);
-    border: 2px solid var(--very-light-gray);
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid hsl(0, 0%, 95%);
     padding: 10px 20px;
     border-radius: 20px;
     letter-spacing: 2;
@@ -116,13 +116,13 @@ main .cardgroup{
 .cardgroup .suvs button:hover{
     cursor: pointer;
     transform: scale(1.05);
-    background-color: var(--light-cyan);
+    background-color: hsl(184, 68%, 40%);
 }
 
 
 /* ===============LUXURY============ */
 .cardgroup .luxury{
-    background-color: var(--dark-cyan);
+    background-color: hsl(179, 100%, 13%);
     padding: 2.2rem;
     border-radius: 0 6px 6px 0;
 }
@@ -136,7 +136,7 @@ main .cardgroup{
     font-family: "big shoulders display", cursive;
     font-weight: 700;
     font-size: 2rem;
-    color: var(--very-light-gray);
+    color: hsl(0, 0%, 95%);
     padding-bottom: 1.5rem;
 
 }
@@ -145,7 +145,7 @@ main .cardgroup{
     font-family: "lexend deca", sans-serif;
     font-weight: 400;
     font-size: 12px;
-    color: var(--transparent-white);
+    color: hsla(0, 0%, 100%, 0.75);
     line-height: 1.2rem;
     padding-bottom: 4rem;
 }
@@ -153,9 +153,9 @@ main .cardgroup{
 .cardgroup .luxury button{
     font-family: "lexend deca", sans-serif;
     font-weight: 400;
-    color: var(--very-light-gray);
-    background-color: var(--dark-cyan);
-    border: 2px solid var(--very-light-gray);
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid hsl(0, 0%, 95%);
     padding: 10px 20px;
     border-radius: 20px;
     letter-spacing: 2;
@@ -165,5 +165,5 @@ main .cardgroup{
 .cardgroup .luxury button:hover{
     cursor: pointer;
     transform: scale(1.05);
-    background-color: var(--light-cyan);
+    background-color: hsl(184, 68%, 40%);
 }
